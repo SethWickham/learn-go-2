@@ -1,1 +1,5 @@
-# learn-go-2
+use command:
+
+go run *.go 
+
+to run application
