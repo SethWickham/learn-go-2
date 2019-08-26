@@ -1,9 +1,9 @@
 package main
 
-import (
-	"fmt"
-)
+import "fmt"
 
 func main() {
-	fmt.Println("func main Print")
+	waitGroup()
+	fmt.Println("hello")
+
 }
