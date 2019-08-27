@@ -13,6 +13,8 @@ import (
 // Goroutines to wait until certain actions are completed, thus allowing us to sync up our program
 // so that it behaves as we desire
 
+//it is important to note that code may be concurrent and not running Parrallel if the computer only has a single processor
+
 var wg sync.WaitGroup
 
 func waitGroup() {
