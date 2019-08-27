@@ -38,6 +38,7 @@ func waitGroup() {
 	fmt.Println("waitGroup Print END")
 }
 
+// wg.Done is basically saying thanks for waiting you can stop waiting now and exit the WaitGroup.
 func numberToZero() {
 	for i := 10; i >= 0; i-- {
 		fmt.Println("numberToZero:", i)
@@ -48,7 +49,6 @@ func numberToZero() {
 func numberToTen() {
 	for i := 0; i <= 10; i++ {
 		fmt.Println("numberToTen:", i)
-
 	}
 	wg.Done()
 }
