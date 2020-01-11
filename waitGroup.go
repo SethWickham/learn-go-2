@@ -53,4 +53,5 @@ func numberToTen() {
 		fmt.Println("numberToTen:", i)
 	}
 	wg.Done()
+	fmt.Println("waitGroup Print END")
 }
