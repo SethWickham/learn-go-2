@@ -21,6 +21,8 @@ func directionalChannels() {
 	ch := <-c
 	fmt.Println(ch)
 
+	cr = c
+
 	//TYPE print of c
 	fmt.Printf("c channel TYPE: \t%T\n", c)
 	//TYPE print of cr

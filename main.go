@@ -8,5 +8,6 @@ func main() {
 	fmt.Println("hello from func main")
 	channels()
 	directionalChannels()
+	usingChannels()
 
 }
