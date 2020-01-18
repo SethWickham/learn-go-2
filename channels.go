@@ -2,6 +2,8 @@ package main
 
 import "fmt"
 
+// channels allow us to communicate between our go routines, they are the only tool we have in go to communicate
+// between different go routines, we can send our data into a channel and thereby use that data in any go routine that is connected to our channel
 //  VERY IMPORTANT- Channels block, they must, typically it is good practice to build our code in a way that is unbuffered
 // so that there is always the interlocking component where a pass will happen - Todd Mcleod
 // in order to pass VALUES between GO ROUTINES we use CHANNELS
